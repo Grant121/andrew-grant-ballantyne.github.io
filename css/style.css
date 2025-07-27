@@ -284,7 +284,6 @@ header {
   max-width: 500px;
 }
 
-
 .details-container {
   width: 100%;
   margin-top: 8rem;
@@ -301,16 +300,17 @@ header {
 
 /* Text Below the Grid */
 .text-container {
+  text-align: justify;
   max-width: 1000px;
   margin: 2rem auto 0;
-  padding: 0 0rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
 }
 
 .text-container p {
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 1rem;
-  text-align: justify;
 }
 
 /* Arrow icon */
@@ -452,7 +452,7 @@ header {
 .project-img {
   width: 100%;
   max-width: 250px;
-  height: auto;
+  height: 450px;
   border-radius: 1rem;
   display: block;
   margin: 0 auto;
@@ -658,6 +658,34 @@ footer {
     align-items: center;
     gap: 1rem; /* reduce spacing between cards */
   }
+
+@media (max-width: 768px) {
+  .text-container {
+    text-align: center;              /* keep text readable */
+    font-size: 1rem;
+    line-height: 1.7;
+    padding: 0 1.5rem;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;          /* horizontally center content */
+  }
+
+  .text-container p {
+    max-width: 100%;
+    text-align: center;             /* override justify if still active */
+  }
+}
+
+@media (max-width: 480px) {
+  .text-container {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    padding: 0 1rem;
+  }
+}
+
+
 
   .details-container {
     width: 90%; /* keeps them a bit narrower for readability */
