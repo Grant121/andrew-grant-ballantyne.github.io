@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Andrew Grant Ballantyne is a creative professional with a background in business computing and expertise in design, coding, and digital solutions." />
+  <meta name="keywords" content="Andrew Grant Ballantyne, design, coding, UX/UI, digital solutions, business computing" />
+  <meta name="author" content="Andrew Grant Ballantyne" />
+  <title>About Andrew Grant Ballantyne</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@700&family=Bitcount+Prop+Single:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <button class="menu-toggle" aria-label="Toggle Menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="projects">
+      <div style="text-align: center;">
+        <h1 class="bitcount-heading">Academic Projects</h1>
+      </div>
+
+      <div class="about-containers">
+        <!-- Project 1 -->
+        <div class="project-details-container color-container">
+          <div class="article-container">
+            <div class="experience-sub-title project-title" style="text-align: center;">
+              <h2 class="bitcount-prop-single">Children's Spelling App</h2>
+            </div>
+            <div class="gallery">
+              <img src="img/mobileapp.jpg" alt="Children's Spelling App Preview" id="mainProjectImg" class="project-img" style="cursor: pointer;" />
+            </div>
+            <div class="btn-container">
+              <button class="cta2-btn" onclick="location.href='https://drive.google.com/file/d/142XVHwa2gY-QOA5mKCUz7J2J5iwiN0kL/view?usp=sharing'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lightbox for Project 1 -->
+        <div id="lightbox" class="lightbox-overlay">
+          <div class="lightbox-content">
+            <span class="close-btn">&times;</span>
+            <img src="img/App2.png" alt="App Screen 1" />
+            <img src="img/App2.jpg" alt="App Screen 2" />
+            <img src="img/App3.png" alt="App Screen 3" />
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-details-container color-container">
+          <div class="article-container">
+            <div class="experience-sub-title project-title" style="text-align: center;">
+              <h2 class="bitcount-prop-single">WeatherAPI Travel App</h2>
+            </div>
+            <div class="gallery">
+              <img src="img/TASS.png" alt="WeatherAPI Travel App Preview" id="weatherProjectImg" class="project-img" style="cursor: pointer;" />
+            </div>
+            <div class="btn-container">
+              <button class="cta2-btn" onclick="location.href='https://drive.google.com/file/d/1BGPRdqxj5-WnDnboP7orOVNYg8G3GqHd/view?usp=sharing'">
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Lightbox for Project 2 -->
+        <div id="lightbox-weather" class="lightbox-overlay">
+          <div class="lightbox-content">
+            <span class="close-btn">&times;</span>
+            <img src="img/weatherapi2.png" alt="Weather App Screen 1" />
+            <img src="img/WeatherAPI.png" alt="Weather App Screen 2" />
+            <img src="img/hotels.png" alt="Weather App Screen 3" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Andrew Grant Ballantyne</p>
+    <a href="https://linkedin.com/in/andrewgrantballantyne" target="_blank" rel="noopener">
+      <img src="img/linkedin.png" alt="LinkedIn" class="social-icon" />
+    </a>
+    <a href="https://github.com/Grant121" target="_blank" rel="noopener">
+      <img src="img/github.png" alt="GitHub" class="social-icon" />
+    </a>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
