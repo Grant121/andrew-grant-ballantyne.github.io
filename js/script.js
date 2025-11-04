@@ -26,10 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (typedEl) {
     const messages = [
-      "Software Development.",
-      "Business Computing Graduate.",
-      "Developer.",
-      "Problem Solver."
+    "Software Development.",
+    "Business Computing Graduate.",
+    "Developer.",
+	  "Project Management.",
+	  "UI/UX Design.",
+    "Problem Solver."
     ];
 
     let i = 0;
@@ -135,3 +137,4 @@ document.addEventListener("DOMContentLoaded", function () {
     };
   }
 });
+
